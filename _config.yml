@@ -1,5 +1,4 @@
 title: Digital Area Studies
-theme: jekyll-theme-slate
+#theme: jekyll-theme-slate
+remote_theme: just-the-docs/just-the-docs
 description: A seminar series at IKOS, University of Oslo
-navbar-links:
-  About: about.md
