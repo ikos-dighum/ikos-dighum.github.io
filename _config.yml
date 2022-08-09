@@ -1,3 +1,5 @@
 title: Digital Area Studies
 theme: jekyll-theme-slate
 description: A seminar series at IKOS, University of Oslo
+header_pages:
+  - about.md
