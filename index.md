@@ -1,4 +1,4 @@
-[**HOME**](/index.md) $~$ $~$ $~$ [**ABOUT**](/about.md)
+[**HOME**](/index.md)      [**ABOUT**](/about.md)
 
 ## Welcome!
 
