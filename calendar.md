@@ -6,7 +6,7 @@ We meet every other Monday from 10.30am to 12pm.
 
 ## Autumn 2022
  
-5 September: File management and text manipulation in R  
+5 September: [File management and text manipulation in R](/contents/2022_09_05_seminar_readings.md)  
 
 19 September: OCR with Tesseract and Google Document AI  
 
