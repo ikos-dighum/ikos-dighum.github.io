@@ -4,4 +4,20 @@
 
 We meet every other Monday from 10.30am to 12pm.
 
-5 September: TBC
+## Autumn 2022
+ 
+5 September: File management and text manipulation in R  
+
+19 September: OCR with Tesseract and Google Document AI  
+
+3 October: Automation and iteration in R   
+
+17 October: Basic text mining in R (Quanteda)   
+
+31 October: External presenter  
+
+14 November: More text mining; participant presentations  
+
+28 November: More text mining; participant presentations  
+
+12 December: Working with plaintext in Middle East Studies   
