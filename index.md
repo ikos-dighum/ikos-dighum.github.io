@@ -3,4 +3,4 @@
 
 Welcome to the home page for the Digital Area Studies (DAS) seminar series at IKOS, University of Oslo. Here you will find the program for each semester and other useful resources.
 
-![](/assets/images/das.jpg)
+![](/assets/images/das.jpg){ width=50% }
