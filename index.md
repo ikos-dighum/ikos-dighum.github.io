@@ -1,6 +1,6 @@
 [**HOME**](/index.md) - [**ABOUT**](/about.md) - [**CALENDAR**](calendar.md) - [**RESOURCES**](/resources.md)
 
-## Welcome!
 
-This is the beginning of a simple webpage for the Digital Area Studies (DAS) seminar series at IKOS, University of Oslo.
+Welcome to the home page for the Digital Area Studies (DAS) seminar series at IKOS, University of Oslo. Here you will find the program for each semester and other useful resources.
 
+![](/assets/images/das.jpg)
