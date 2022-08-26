@@ -2,7 +2,7 @@
 
 # Calendar
 
-We meet every other Monday from 10.30am to 12pm.
+We meet every other Monday from 10.30am to 12pm. All meetings are in PAM389, unless otherwise noted.
 
 ## Autumn 2022
  
