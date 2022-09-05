@@ -1,4 +1,4 @@
-[**HOME**](/index.md) - [**ABOUT**](/about.md) - [**CALENDAR**](/calendar.md) - [**RESOURCES**](/resources.md)
+[**HOME**](/index.html) - [**ABOUT**](/about.html) - [**CALENDAR**](/calendar.html) - [**RESOURCES**](/resources.html)
 
 ## File management and text manipulation in R
 
