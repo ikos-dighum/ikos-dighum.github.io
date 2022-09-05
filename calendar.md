@@ -1,4 +1,4 @@
-[**HOME**](/index.md) - [**ABOUT**](/about.md) - [**CALENDAR**](calendar.md) - [**RESOURCES**](/resources.md)
+[**HOME**](/index.md) - [**ABOUT**](/about.md) - [**CALENDAR**](/calendar.md) - [**RESOURCES**](/resources.md)
 
 # Calendar
 
@@ -8,7 +8,7 @@ We meet every other Monday from 10.30am to 12pm. All meetings are in PAM389, unl
  
 5 September: [File management and text manipulation in R](/contents/2022_09_05_seminar_readings.md)  
 
-19 September: OCR with Tesseract and Google Document AI  
+19 September: [OCR with Tesseract and Google Document AI](/contents/2022_09_19_seminar_readings.md)  
 
 3 October: Automation and iteration in R   
 
