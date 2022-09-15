@@ -10,7 +10,7 @@ We meet every other Monday from 10.30am to 12pm. All meetings are in PAM389, unl
 
 19 September: [OCR with Tesseract and Google Document AI](/contents/2022_09_19_seminar_readings.md)  
 
-3 October: Automation and iteration in R   
+3 October: Functions and iteration in R   
 
 17 October: Basic text mining in R (Quanteda)   
 
