@@ -10,7 +10,7 @@ We meet every other Monday from 10.30am to 12pm. All meetings are in PAM389, unl
 
 19 September: [OCR with Tesseract and Google Document AI](/contents/2022_09_19_seminar_readings.md)  
 
-3 October: [Google Document AI and the daiR package: Optical Character Recognition coding](contents/2022_10_03.md)
+3 October: [Google Document AI and the daiR package: Optical Character Recognition coding](/contents/2022_10_03.md)
 
 17 October: Functions and iterations in R   
 
