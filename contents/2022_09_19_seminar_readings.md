@@ -8,4 +8,4 @@ Suggested readings:
 
 - [Tesseract in R](https://rpubs.com/jojoecp/Tesseract)  
 
-- [Using Google Document AI with R](https://dair.info/articles/using_document_ai.html)   
+- [Using Google Document AI with R](https://dair.info/articles/using_document_ai.html)
