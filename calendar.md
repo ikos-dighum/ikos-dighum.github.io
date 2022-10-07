@@ -12,7 +12,7 @@ We meet every other Monday from 10.30am to 12pm. All meetings are in PAM389, unl
 
 3 October: [Google Document AI and the daiR package: Optical Character Recognition coding](/ikos-dighum.github.io/contents/2022_10_03.md )
 
-17 October: Functions and iterations in R   
+17 October: [Functions and iterations in R](/contents/2022_10_17_seminar_readings.md)   
 
 31 October: Tidying and anlayzing texts in R  
 
