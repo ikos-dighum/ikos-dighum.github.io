@@ -1,1 +1,3 @@
+# Tasks
+
 Read and work through the code in ch 7 in [Introduction to R](https://intro2r.com/prog_r.html). It takes less time than you think, and you need the whole chapter to make sense of the loops sections towards the end. By the way, this is a brand new book which is very friendly, and I recommend you read the whole book, replicating the code in it as you go along.
