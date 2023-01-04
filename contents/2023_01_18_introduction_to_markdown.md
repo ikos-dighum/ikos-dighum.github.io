@@ -1,0 +1,11 @@
+## An Introduction to Markdown and Pandoc
+
+Suggested readings:
+
+- [Getting Started: What is Markdown and Why Use It?](https://www.markdownguide.org/getting-started/)
+
+- [What is Pandoc?](https://dev.to/killshot13/what-is-pandoc-1hbc)
+
+- [Installing Pandoc](https://pandoc.org/installing.html)
+
+- [Our recommended text editor: Installing Atom](https://atom.en.uptodown.com/windows)
