@@ -4,20 +4,34 @@
 
 We meet every other Monday from 10.30am to 12pm. All meetings are in PAM389, unless otherwise noted.
 
+## Spring 2023
+
+* 18. January: An introduction to Markdown  with Pandoc
+
+* 1. February: Using Markdown with Zotero and Better BibTex
+
+* 15. February: ggplot2: An introduction (how to create Gantt charts in R)
+
+* 1. March: ggplot2: Creating timelines
+
+* 15. March: ggplot2: Word analysis and visualization
+
+* 29. March: ggplot2: Creating maps and visualizing networks
+
 ## Autumn 2022
- 
-5 September: [File management and text manipulation in R](/contents/2022_09_05_seminar_readings.md)  
 
-19 September: [OCR with Tesseract and Google Document AI](/contents/2022_09_19_seminar_readings.md)  
+* 5. September: [File management and text manipulation in R](/contents/2022_09_05_seminar_readings.md)  
 
-3 October: [Google Document AI and the daiR package: Optical Character Recognition coding](/ikos-dighum.github.io/contents/2022_10_03.md )
+* 19. September: [OCR with Tesseract and Google Document AI](/contents/2022_09_19_seminar_readings.md)  
 
-17 October: [Functions and iterations in R](/contents/2022_10_17_seminar_readings.md)   
+* 3. October: [Google Document AI and the daiR package: Optical Character Recognition coding](/ikos-dighum.github.io/contents/2022_10_03.md )
 
-31 October: Tidying and anlayzing texts in R  
+* 17. October: [Functions and iterations in R](/contents/2022_10_17_seminar_readings.md)   
 
-14 November: Text mining; participant presentations  
+* 31. October: Tidying and anlayzing texts in R
 
-28 November: More text mining; participant presentations  
+* 14. November: Text mining; participant presentations
 
-12 December: Working with plaintext in Middle East Studies   
+* 28. November: More text mining; participant presentations
+
+* 12. December: Working with plaintext in Middle East Studies
