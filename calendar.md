@@ -18,11 +18,11 @@ We meet every other Monday from 10.30am to 12pm. All meetings are in PAM389, unl
 
 * 29 March: ggplot2: Creating maps and visualizing networks
 
-* 12. April: TBA
+* 12 April: TBA
 
-* 26. April: TBA
+* 26 April: TBA
 
-* 10. May: TBA
+* 10 May: TBA
 
 ## Autumn 2022
 
