@@ -6,11 +6,11 @@ We meet every other Monday from 10.30am to 12pm. All meetings are in PAM389, unl
 
 ## Spring 2023
 
-* 18. January: An introduction to Markdown  with Pandoc
+* 18 January: An introduction to Markdown  with Pandoc
 
-* 1. February: Using Markdown with Zotero and Better BibTex
+* 1 February: Using Markdown with Zotero and Better BibTex
 
-* 15. February: ggplot2: An introduction (how to create Gantt charts in R)
+* 15 February: ggplot2: An introduction (how to create Gantt charts in R)
 
 * 1. March: ggplot2: Creating timelines
 
