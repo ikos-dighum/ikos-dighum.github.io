@@ -2,7 +2,7 @@
 
 # Calendar
 
-We meet every other Monday from 10.30am to 12pm. All meetings are in PAM389, unless otherwise noted.
+We meet every other Wednesday from 10.30am to 12pm. All meetings are in PAM389, unless otherwise noted.
 
 ## Spring 2023
 
@@ -40,4 +40,4 @@ We meet every other Monday from 10.30am to 12pm. All meetings are in PAM389, unl
 
 * 28 November: More text mining; participant presentations
 
-* 12. December: Working with plaintext in Middle East Studies
+* 12 December: Working with plaintext in Middle East Studies
