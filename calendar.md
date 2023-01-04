@@ -6,7 +6,7 @@ We meet every other Monday from 10.30am to 12pm. All meetings are in PAM389, unl
 
 ## Spring 2023
 
-* 18 January: An introduction to Markdown  with Pandoc
+* 18 January: [An introduction to Markdown  with Pandoc](/contents/2023_01_18_introduction_to_markdown.md)
 
 * 1 February: Using Markdown with Zotero and Better BibTex
 
