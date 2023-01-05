@@ -8,4 +8,8 @@ Suggested readings:
 
 - [Installing Pandoc](https://pandoc.org/installing.html)
 
-- [Our recommended text editor: Installing Atom](https://atom.en.uptodown.com/windows)
+- Plaintext editors to consider: 
+
+- [Gedit - minimalistic and tidy](https://help.gnome.org/users/gedit/stable/)
+- [Notepad++ - good for Windows and available in UiO's Software centre](https://notepad-plus-plus.org/)
+- [Atom, good for academic texts but no longer supported](https://atom.en.uptodown.com/windows)
