@@ -1,6 +1,7 @@
 ## An Introduction to Markdown and Pandoc
 
 Suggested readings:
+- [A Plain Text Workflow for Academic Writing Blogpost](http://u.arizona.edu/~selisker/post/workflow/)
 
 - [Getting Started: What is Markdown and Why Use It?](https://www.markdownguide.org/getting-started/)
 
