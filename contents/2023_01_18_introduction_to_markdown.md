@@ -9,7 +9,7 @@ Suggested readings:
 
 - [Installing Pandoc](https://pandoc.org/installing.html)
 
-Plaintext editors to consider: 
+**Plaintext editors to consider:** 
 
 - We warmly recommend [Visual Studio Code](https://code.visualstudio.com/)
 - [Gedit](https://help.gnome.org/users/gedit/stable/) - minimalistic and tidy
