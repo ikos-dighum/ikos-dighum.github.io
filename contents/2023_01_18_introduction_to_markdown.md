@@ -11,6 +11,7 @@ Suggested readings:
 
 - Plaintext editors to consider: 
 
+- [We warmly recommend Visual Studio Code](https://code.visualstudio.com/)
 - [Gedit - minimalistic and tidy](https://help.gnome.org/users/gedit/stable/)
 - [Notepad++ - good for Windows and available in UiO's Software centre](https://notepad-plus-plus.org/)
 - [Atom, good for academic texts but no longer supported](https://atom.en.uptodown.com/windows)
