@@ -20,5 +20,5 @@ Jacob's example is messy but works for small batches. Erik's example is harder t
 
 ## User setting for VS Codium
 
-[Erik's example](/json_settings_vscodium_erik.md)
+One of the great things about VS Codium is that you can adjust it to your needs (hard wrap, colorization, extensions, and so on). One way of modifying VS Codium is changing the settings.json file. See [Erik's example](/json_settings_vscodium_erik.md)
 
