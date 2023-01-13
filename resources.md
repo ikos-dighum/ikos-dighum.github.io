@@ -17,3 +17,8 @@ Jacob's example is messy but works for small batches. Erik's example is harder t
 [Jacob's example](/jacobs_kode.R)
 
 [Erik's example](/eriks_kode.R)
+
+## User setting for VS Codium
+
+[Erik's example](/json_settings_vscodium_erik.md)
+
