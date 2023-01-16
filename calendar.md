@@ -3,6 +3,7 @@
 # Calendar
 
 We meet every other Wednesday from 10.30am to 12pm. All meetings are in PAM389, unless otherwise noted.
+P.S!! The seminar on January 17 is scheduled from 12pm to 13.30pm.
 
 ## Spring 2023
 
