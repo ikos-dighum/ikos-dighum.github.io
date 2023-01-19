@@ -16,9 +16,9 @@ Creating an R project: [A quick tutorial](https://www.youtube.com/watch?v=e8B9YU
 Jacob's example is messy but works for small batches. Erik's example is harder to grasp but also tidier and works for much bigger batches.
 [Jacob's example](/jacobs_kode.R)
 
-[Erik's example]
+[Erik's example](/contents/using_dair.html)
 
 ## Changing settings in VS Codium
 
-One of the great things about VS Codium is that you can adjust it according to your needs (whether that pertains to hard wrap, colorization, extensions, and so on). One way of modifying VS Codium is changing the settings.json file. See [Erik's example]
+One of the great things about VS Codium is that you can adjust it according to your needs (whether that pertains to hard wrap, colorization, extensions, and so on). One way of modifying VS Codium is changing the settings.json file. See [Erik's example](/contents/optimizing_vs_codium.html)
 
