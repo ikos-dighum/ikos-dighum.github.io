@@ -16,7 +16,7 @@ Creating an R project: [A quick tutorial](https://www.youtube.com/watch?v=e8B9YU
 Jacob's example is messy but works for small batches. Erik's example is harder to grasp but also tidier and works for much bigger batches.
 [Jacob's example](/jacobs_kode.R)
 
-[Erik's example](/using_dair.html)
+[Erik's example](/contents/using_dair.html)
 
 ## Changing settings in VS Codium
 
