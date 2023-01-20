@@ -23,7 +23,7 @@ P.S!! The seminar on January 17 is scheduled from 12pm to 13.30pm.
 
 * 26 April: TBA
 
-* 10 May: Presentation by Neil Ketchley, St Antony's College (Oxford University)
+* 10 May: Presentation by [Neil Ketchley](https://www.politics.ox.ac.uk/person/neil-ketchley), St Antony's College (Oxford University)
 
 ## Autumn 2022
 
