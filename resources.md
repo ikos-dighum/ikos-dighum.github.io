@@ -22,3 +22,7 @@ Jacob's example is messy but works for small batches. Erik's example is harder t
 
 One of the great things about VS Codium is that you can adjust it according to your needs (whether that pertains to hard wrap, colorization, extensions, and so on). One way of modifying VS Codium is changing the settings.json file. See [Erik's example](/contents/optimizing_vs_codium.html)
 
+## Miniguide to Quarto
+
+The html version of the guide is [here](https://github.com/ikos-dighum/ikos-dighum.github.io/blob/main/contents/miniguide_quarto.html), and the markdown file it is made from is [here](https://github.com/ikos-dighum/ikos-dighum.github.io/blob/main/contents/miniguide_quarto.qmd).
+
