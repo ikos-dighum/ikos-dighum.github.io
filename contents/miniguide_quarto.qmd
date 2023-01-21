@@ -1,5 +1,5 @@
 ---
-title: "test"
+title: "Miniguide to Quarto"
 author: "Jacob Høigilt"
 date: today
 format: 
