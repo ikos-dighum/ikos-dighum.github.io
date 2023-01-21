@@ -17,7 +17,7 @@ editor: source
 bibliography: conspiracies.bib
 ---
 # The purpose of this document
-The document is simply meant to showcase some basic Quarto functions using random examples from a Carpentry workshop at the University of Oslo. The .qmd file with the markdown text and YAML field is found at the [Digital Area Studies group Github repository]().
+The document is simply meant to showcase some basic Quarto functions using random examples from a Carpentry workshop at the University of Oslo. The .qmd file with the markdown text and YAML field is found at the [Digital Area Studies group Github repository](https://github.com/ikos-dighum/ikos-dighum.github.io/blob/main/contents/miniguide_quarto.qmd).
 
 The official introduction to Quarto is [here](https://quarto.org/docs/get-started/).
 
