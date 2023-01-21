@@ -22,5 +22,5 @@ One of the great things about VS Codium is that you can adjust it according to y
 
 ## Miniguide to Quarto
 
-The html version of the guide is [here](https://github.com/ikos-dighum/ikos-dighum.github.io/blob/main/contents/miniguide_quarto.html), and the markdown file it is made from is [here](/contents/miniguide_quarto.qmd).
+The html version of the guide is [here](/contents/miniguide_quarto.html), and the markdown file it is made from is [here](/contents/miniguide_quarto.qmd).
 
