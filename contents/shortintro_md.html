@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Jacob Høigilt" />
+  <title>Introduction to Markdown</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Introduction to Markdown</h1>
+<p class="author">Jacob Høigilt</p>
+<p class="date">January 17 2023</p>
+</header>
+<h1 id="introductory-remark">Introductory remark</h1>
+<p>This is a very short introduction to the basics of Markdown. It is written in the simplest way possible, so this html page is basic and quite ugly, but it works. The markdown file used to produce this web page will work equally well in .pdf and .docx/.odt formats. The markdown file is found <a href="">here</a><br />
+<br />
+<br />
+</p>
+<h1 id="what-is-markdown">What is Markdown?</h1>
+<p>It is a plain text format with some simple codes that tell various software how to display characters. For example, asterisks before and after a word will tell the software to display the text in italics, like this: <code>*italics here*</code>, which will shpw up like this:</p>
+<p><em>italics here</em>.</p>
+<p>There are numerous guides and cheat sheets for Markdown on the web, so it’s easy to get help if you cannot remember the codes for simple formatting. Here’s three:</p>
+<p><a href="https://www.markdownguide.org/getting-started">Markdownguide</a></p>
+<p><a href="https://www.howtogeek.com/448323/what-is-markdown-and-how-do-you-use-it/">HowtoGeek’s guide, focus on web pages</a></p>
+<p><a href="https://www.markdowntutorial.com/">Markdown Tutorial, live web-based tutorial</a></p>
+<p><br />
+<br />
+<br />
+</p>
+<h1 id="why-markdown">Why Markdown?</h1>
+<ul>
+<li>Can be read by all devices and systems without problems or garbled text. You are not bound to any specific software and your text can be read flawlessly forever.</li>
+<li>Is extremely versatile. I can display this document equally well as a web page, a docx document, a slideshow and a pdf file.</li>
+<li>It lets you focus on the content of your text, leaving the question of fancy formatting options (like in Word) for later.</li>
+<li>It gives you full control over your text - at all times you understand what’s going on. But there’s a price to be paid: it requires learning.<br />
+<br />
+<br />
+</li>
+</ul>
+<h1 id="the-components-of-an-.md-file">The components of an .md file</h1>
+<h1 id="the-yaml-header">The YAML header</h1>
+<p>The header contains metadata about your text, some of which will be shown in the output. It is written in a separate language called YAML, which you can read more about here: <a href="https://quire.getty.edu/docs-v1/fundamentals/">Quire page on YAML and Markdown</a></p>
+<p>Here is the YAML header I used for this document:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="co">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a><span class="an">title:</span><span class="co"> Introduction to Markdown</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true"></a><span class="an">author:</span><span class="co"> Jacob Høigilt</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true"></a><span class="an">date:</span><span class="co"> today</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true"></a><span class="an">fontfamily:</span><span class="co"> utopia</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true"></a><span class="co">---</span></span></code></pre></div>
+<p>The YAML header can contain a lot of different elements for various file types, but these are the most essential ones that you will probably always want to include. It is very important that you write the YAML field exactly as shown here. YAML is case sensitive and also sensitive to indentations, and just one empty space too many will give you an error.</p>
+<p>Try this out. Open an empty file in your text editor of choice and write a YAML header. Next, we will write some Markdown in the same file.<br />
+<br />
+<br />
+</p>
+<h1 id="the-actual-markdown-text">The actual Markdown text</h1>
+<p>If you don’t want any specific formatting, you just write like you normally would. But as shown above, you can code for italics. You can also code for bold, underline, simple tables, etc., like this:<br />
+<br />
+</p>
+<table>
+<thead>
+<tr class="header">
+<th>Markdown text</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>**Bold**</code></td>
+<td><strong>Bold</strong></td>
+</tr>
+<tr class="even">
+<td><code>1. numbered lists</code></td>
+<td>1. numbered lists</td>
+</tr>
+<tr class="odd">
+<td><code>2. numbered lists</code></td>
+<td>2. numbered lists</td>
+</tr>
+</tbody>
+</table>
+<p><br />
+<br />
+And here’s the source code for the table above:<br />
+</p>
+<pre><code>
+| Markdown text | Output |
+| -----------   | ----------- |
+| `**Bold**` | **Bold** |
+| `1. numbered lists` | 1. numbered lists |
+| `2. numbered lists` | 2. numbered lists |
+</code></pre>
+<p><br />
+To tell a web browser that you want a line break in your text, you use this character <code>\</code>. I have inserted three <code>\</code> under each other to create the space between this and the next paragraph.<br />
+ <br />
+</p>
+<h1 id="inserting-hyperlinks-and-images">Inserting hyperlinks and images</h1>
+<p>I want to insert a hyperlink to <a href="http://u.arizona.edu/~selisker/post/workflow/">A Plain Text Workflow for Academic Writing with Atom</a></p>
+<p>This is one example of a plaintext workflow. Note that Atom is no longer being supported by developers, so it’s better to use another editor, such as VSCode or VSCodium for or Notepad++.</p>
+<p>Here’s an image.</p>
+<p>There are options in Markdown for placing the image on a page, but I won’t go into it here. Explore on your own and share! For simplicity’s sake, you should place the image file in the same directory/folder as your Markdown document, so you won’t have to specify the file path.</p>
+<figure>
+<img src="uio_screenshot.png" alt="" /><figcaption>uio screenshot</figcaption>
+</figure>
+</body>
+</html>
