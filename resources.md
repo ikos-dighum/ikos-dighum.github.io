@@ -21,4 +21,4 @@ Creating an R project: [A quick tutorial](https://www.youtube.com/watch?v=e8B9YU
 One of the great things about VS Codium is that you can adjust it according to your needs (whether that pertains to hard wrap, colorization, extensions, and so on). One way of modifying VS Codium is changing the settings.json file. See [Erik's example](/contents/optimizing_vs_codium.html)
 
 ## Miniguide to Quarto
-Compare the product, an [HTML web page](/contents/miniguide_quarto.html), with the [markdown script](miniguide_quarto.qmd) as you go along.
+Compare the product, an [HTML web page](/contents/miniguide_quarto.html), with the [markdown script](/contents/miniguide_quarto.qmd) as you go along.
