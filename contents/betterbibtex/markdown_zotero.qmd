@@ -15,7 +15,7 @@ format:
     docx: default
 editor: source
 bibliography: conspiracies.bib
-#csl: digital-scholarship-in-the-humanities.csl
+csl: digital-scholarship-in-the-humanities.csl
 ---
 
 ## What you need
@@ -42,14 +42,14 @@ Write some sentences so you have some text where you can insert references.
 
 First, make sure you remember where in the file system your new text file is.
 
-Then open Zotero. If you have a library, fine. If not, we will make a small one now.
+Then open Zotero. If you have a library, fine. If not, make a small one. Go to any scholarly database (Google Scholar or your university library, for example) and simply choose the book/paper you want, then click the book/paper icon on the top right of your browser. The Zotero plugin then imports the reference into your library. After you have done this, right-click your library and choose "export library."
 
 If you have a big library, you will probably want to export just part of it, which you can do by right-clicking the relevant folder and choose "export collection".
 
 -   Choose Better Bibtex in the scrollable menu.
--   If this is an ongoing project and you know your Zotero library is likely to expand, choose the "keep updated" option. This ensures that Zotero sends an updated bibliography file to your project folder every time you make a change.
--   Now comes the part where you choose where to export the file. *Choose the exact folder where your new .md file is located.*
--   You now have a .bib file where the file name is the same as the name of the Zotero collection you exported. Go and check if it is in the right place.
+-   If this is an ongoing project and you know your Zotero library is likely to expand, choose the "export in background" and "keep updated" options. This ensures that Zotero sends an updated bibliography file to your project folder every time you make a change.
+-   Now comes the part where you choose *where* to export the file. *Choose the exact folder where your new .md file is located.*
+-   You now have a .bib file whose file name is the same as the name of the Zotero collection you exported. Go and check if it is in the right place.
 
 ## Inserting Better Bibtex references in Markdown
 
@@ -86,7 +86,7 @@ studies include conspiracy theories in civil war [@Silverstein2002], ideological
 struggles and sectarianism [@Farha2016].
 ```
 
-When it is compiled to .html format, it will look like the paragraph below, and a list of references will be added at the bottom of the document. That's the magic!
+When it is compiled to .html format, it will look like the paragraph below, and a list of references will be added at the bottom of the document (take a look at the end of this text to see it). That's the magic!
 
 We still lack good explanations of the emergence and functions of CTs in Arabic discourse. Although the literature on CTs sometimes includes Middle Eastern and other non-Western contexts and experiences, e.g. [@Butter2014; @Gurpinar2019; @Nefes2019; @Koerber2018], the fact remains that 20th- and 21st-century Western Europe and the United States serve as the theoretical locus of CT studies. Other places and times are measured against the model developed from studies of modern Western countries and treated as interesting variants. In an exemplary exercise of self-criticism, Butter and Knight [@Butter2020b] state that current research is too focused on the USA and the contemporary period, and too often treats CTs as coping mechanisms for the marginalized. Our understanding of conspiracy discourse in the Arab Middle East is to a large degree framed by too much anecdotal evidence and too little research. The small body of scholarship on conspiracy theories in the Arab Middle East and North Africa has not kept up with developments in the literature the last 20 years. Of the two general, book-length studies that exist, one tends more towards paternalistic polemic than scholarship [@Pipes1996]. The other is serious and useful, but it treats the Arab public sphere as an extraordinary case and focuses only on post-World War 2 history. A more fundamental problem is that it does not examine sources in Arabic and thus cannot provide a complete understanding of the phenomenon [@Gray2010]. There are valuable, smaller studies on CTs in relation to specific issues. In the tradition of conspiracy research in cultural studies, Koerber contributes a study of conspiracy in Egyptian literature [@Koerber2018]. De Poli provides an excellent investigation of how anti-Semitic ideas, specifically those of the fabricated *Protocols of the Elders of Zion*, were injected into the Arabic public sphere through French-influenced Catholicism and, later, Nazi agents [@DePoli2014]. Other studies include conspiracy theories in civil war [@Silverstein2002], ideological struggles and sectarianism [@Farha2016].
 
@@ -105,17 +105,25 @@ Now for the finish!
 -   Open the terminal *in the same directory as your .md file and .bib files are*.
 -   Give Pandoc the following command:
 
-<!-- -->
-
+    ```
     pandoc --filter pandoc-citeproc -s yourfilename.md -o yourfilename.html
+    ```
 
-Now try it out with different file formats. For pdf to work, you must have installed a Latex package (tinytex or Texlive). If you have non-Latin characters in your .bib file you may run into a couple of problems that we can solve together.
+    OR (on Mac/Windows)
+
+    ```
+    pandoc --citeproc -s yourfilename.md -o yourfilename.html
+    ```
+
+Now try it out with different file formats. For pdf to work, you must have installed a Latex package (tinytex or Texlive). 
+
+*NOTE* If you have non-Latin characters in your .bib file you may run into the problem that the citation key converts your non-Latin letters to a strange symbol which hinders the pandoc process. The only solution I have for this currently is to open the resulting .bib file in a text editor, and then run a "find and replace" command on the symbol, replacing it by nothing. It then disappears, but the affected citation keys will miss one letter. I will look for better solutions to this. 
 
 ## Specifying a citation style
 
 This is *extremely* useful. You can convert the references and bibliography to almost any style. Here is the relevant section from the [Pandoc user guide](https://pandoc.org/MANUAL.html#citations):
 
-> Citations and references can be formatted using any style supported by the Citation \>Style Language, listed in the Zotero Style Repository. These files are specified \>using the --csl option or the csl (or citation-style) metadata field. By default, \>pandoc will use the Chicago Manual of Style author-date format. (You can override \>this default by copying a CSL style of your choice to default.csl in your user data \>directory.) The CSL project provides further information on finding and editing \>styles.
+> Citations and references can be formatted using any style supported by the Citation Style Language (csl), listed in the Zotero Style Repository. These files are specified using the --csl option or the csl (or citation-style) metadata field. By default, pandoc will use the Chicago Manual of Style author-date format. (You can override this default by copying a CSL style of your choice to default.csl in your user data directory.) The CSL project provides further information on finding and editing styles.
 
 So if you want to specify a citation style, you download the corresponding .csl style from the Zotero style repository and *place it in the directory where your text file is*, and then you include it in the YAML header:
 
