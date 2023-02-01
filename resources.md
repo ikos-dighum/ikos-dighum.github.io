@@ -25,12 +25,13 @@ One of the great things about VS Codium is that you can adjust it according to y
 Here are links to the [web presentation](/contents/betterbibtex/markdown_zotero.html) of the DAS seminar on 1 February, and here is the [markdown file](/contents/betterbibtex/markdown_zotero.qmd).
 
 \
-\
+
 
 ## Miniguide to Quarto
 
 Compare the product, an [HTML web page](/contents/miniguide_quarto.html), with the [markdown script](/contents/miniguide_quarto.qmd) as you go along.
-\
+
+
 \
 
 ## Preprocessing text with SpaCy
