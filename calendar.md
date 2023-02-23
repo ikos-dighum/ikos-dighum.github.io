@@ -11,9 +11,9 @@ P.S!! The seminar on January 17 is scheduled from 12pm to 13.30pm.
 
 * 1 February: [Using Markdown with Zotero and Better BibTex](/contents/2023_02_01_markdown_zotero_better_bibtex.md)
 
-* 15 February: ggplot2: An introduction (how to create Gantt charts in R)
+* 15 February: ggplot2: Cancelled
 
-* 1 March: ggplot2: Creating timelines
+* 1 March: ggplot2: Creating timelines and Gantt charts in R
 
 * 15 March: ggplot2: Word analysis and visualization
 
@@ -23,7 +23,7 @@ P.S!! The seminar on January 17 is scheduled from 12pm to 13.30pm.
 
 * 26 April: TBA
 
-* 10 May: Presentation by [Neil Ketchley](https://www.politics.ox.ac.uk/person/neil-ketchley), St Antony's College (Oxford University)
+* 10 May: Presentation by [Neil Ketchley](https://www.politics.ox.ac.uk/person/neil-ketchley), St Antony's College (Oxford University), and [Cristopher Barrie](https://www.sps.ed.ac.uk/staff/christopher-barrie), School of Social and Political Science (University of Edinburgh)
 
 ## Autumn 2022
 
