@@ -23,7 +23,7 @@ P.S!! The seminar on January 17 is scheduled from 12pm to 13.30pm.
 
 * 26 April: TBA
 
-* 10 May: Presentation by [Neil Ketchley](https://www.politics.ox.ac.uk/person/neil-ketchley), St Antony's College (Oxford University), and [Cristopher Barrie](https://www.sps.ed.ac.uk/staff/christopher-barrie), School of Social and Political Science (University of Edinburgh)
+* 10 May: Presentations by [Neil Ketchley](https://www.politics.ox.ac.uk/person/neil-ketchley), St Antony's College (Oxford University), and [Cristopher Barrie](https://www.sps.ed.ac.uk/staff/christopher-barrie), School of Social and Political Science (University of Edinburgh)
 
 ## Autumn 2022
 
