@@ -19,9 +19,9 @@ P.S!! The seminar on January 17 is scheduled from 12pm to 13.30pm.
 
 * 29 March: ggplot2: Creating maps and visualizing networks
 
-* 12 April: TBA
+* 12 April: ggplot2: Presentation by [Sofie Gilbert](https://www.ub.uio.no/english/about/people/samdig/open-research/sofiegi/index.html), University of Oslo Library
 
-* 26 April: TBA
+* 26 April: ggplot2: Presentation by [Sofie Gilbert](https://www.ub.uio.no/english/about/people/samdig/open-research/sofiegi/index.html), University of Oslo Library
 
 * 10 May: Presentations by [Neil Ketchley](https://www.politics.ox.ac.uk/person/neil-ketchley), St Antony's College (Oxford University), and [Cristopher Barrie](https://www.sps.ed.ac.uk/staff/christopher-barrie), School of Social and Political Science (University of Edinburgh)
 
