@@ -5,7 +5,7 @@
 We meet every other Wednesday from 10.30am to 12pm. All meetings are in PAM389, unless otherwise noted.
 P.S!! The seminar on January 17 is scheduled from 12pm to 13.30pm.
 
-## Spring 2023
+## Spring 2023: ggplot2 and data visualization
 
 * 17 January: [An introduction to Markdown  with Pandoc](/contents/2023_01_18_introduction_to_markdown.md)
 
@@ -25,7 +25,7 @@ P.S!! The seminar on January 17 is scheduled from 12pm to 13.30pm.
 
 * 10 May: Presentations by [Neil Ketchley](https://www.politics.ox.ac.uk/person/neil-ketchley), St Antony's College (Oxford University), and [Cristopher Barrie](https://www.sps.ed.ac.uk/staff/christopher-barrie), School of Social and Political Science (University of Edinburgh)
 
-## Autumn 2022
+## Autumn 2022: Text preprocessing
 
 * 5 September: [File management and text manipulation in R](/contents/2022_09_05_seminar_readings.md)  
 
