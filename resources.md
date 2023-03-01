@@ -29,3 +29,7 @@ Compare Jacob's product, an [HTML web page](/contents/miniguide_quarto.html), wi
 ## Preprocessing text with SpaCy
 
 We usually need to preprocess our text before analysis (removing [stopwords](https://kavita-ganesan.com/what-are-stop-words/#.Y9kqAq3MJaQ), [lemmatization](https://www.techtarget.com/searchenterpriseai/definition/lemmatization), and [tokenization](https://www.geeksforgeeks.org/nlp-how-tokenizing-text-sentence-words-works/). This is what we call Natural Language Processing (NLP). Although R is one of our favourite tools for text mining and analysis, Python has several packages that are superior when doing NLP. Here is Erik's [python code for preprocessing Norwegian text](/contents/spacy_language_processing.html) with lemmatization and stopword removal. You can with ease download and change the language module to preprocess Chinese, Japanese, English, or Russian texts (to mention just a few).
+
+## Timelines with vistime
+
+Here is a [.csv file](/contents/tidslinje.csv) made for turning into a timeline.
