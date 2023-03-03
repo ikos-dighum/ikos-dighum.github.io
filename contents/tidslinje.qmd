@@ -1,0 +1,104 @@
+---
+title: "Creating a simple timeline with gg_vistime"
+author: "Jacob Høigilt"
+date: today
+format: 
+    html:
+        toc: true
+        smooth-scroll: true
+        code-fold: true
+        code-summary: "Show me the code"
+    pdf:
+        geometry: 
+          - top=30mm
+          - left=30mm
+    docx: default
+editor: source
+---
+
+
+# Required packages 
+```
+library(vistime)
+library(tidyverse)
+```
+# What kind of data you need
+gg_vistime works with data frames that contain some kind of time data (days/months/years). Before creating your data frame, in the form of a .csv file, you should check out the [vistime vignette](https://shosaco.github.io/vistime/reference/gg_vistime.html#examples) and see the explanation of the typical columns you need there. I have also included a very simple example, the tidslinje.csv file, which serves as my example in the script below. Feel free to try stuff out with that file before you make your own.
+
+Note that you you must enter a full date, including month and date, for this code to work. When you import your .csv file into Rstudio, the "start" and "end" columns should be categorized as DateTime data, not doubles or some other kind of numerical data. If your dataset has Y-mm-dd format (which is the case in the example .csv file provided here), change the coding of respective columns on import to %Y-%m-%d. Then they turn up fine as DateTime formatted columns.
+
+# The basic code
+Once you have imported your dataset as a data.frame in Rstudio, you are ready to go. The .csv file uploaded to the DAS site is designed to give a timeline of early Arab-Islamic history, including information about when the two first dynasties reigned, the lifespans of some important authors and a couple of seminal events in the early history. The following short code yields a basic timeline, assuming that you downloaded the example .csv file named tidslinje.csv and that your data.frame is called "tidslinje":
+
+```
+gg_vistime(tidslinje)
+```
+
+There's a number of arguments and variables that are invisible in the function above, but that you can tweak if you like. Here they are - you can play around with them, run the code and see what happens to the plot:
+
+```
+gg_vistime(tidslinje,
+        col.event = "event",
+        col.start = "start",
+        col.end = "end",
+        linewidth = 5,
+        col.group = "group",
+        optimize_y = TRUE,
+        title = "Oversikt klassisk islamsk periode",
+        show_labels = TRUE,
+        background_lines = NULL)
+```
+
+ 
+# Making a more customized timeline
+Now we want to refine the timeline a bit. We keep the title, but we want an adjustable x 
+ axis (showing the evolved time), a limited set of vertical gridlines in the background and we want a different line width for the coloured lines. The crucial thing to keep in mind when messing with the x axis is that vistime works with POSIXct values. So set the limitations of that axis
+ first, with, POSIXct values. We tell R that we want a timeline that starts with the year 600 and end in the year 1300, expressed as a vector:
+
+```
+lims <- as.POSIXct(strptime(c("600","1300"), format = "%Y"))
+```
+
+Now we use this "lims" object in this modified code, tweaking our timeline. "linewidth" defines the width of our coloured lines, "background lines" defines the number of vertical grid lines (try to leave that bit out and you get the default value), and the "scale_x_datetime" functions tells R that we want breaks along the x axis corresponding to 25 years, with "lims" telling R that start year is 600 and end year is 1300.
+gg_vistime(tidslinje,
+            linewidth = 15,
+            optimize_y = TRUE,
+            title = "Oversikt klassisk islamsk periode",
+            show_labels = TRUE) +
+            background_lines = 12) +
+            scale_x_datetime(date_break = "25 years", 
+            date_labels = "%Y", limits = lims, 
+            expand = c(0.012, 0)) 
+
+
+Let's now make an object "klassisktid" out of the plot that we just produced. So it's exactly the same code, we just define it as an R object with "klassisktid <- ".
+
+klassisktid <-  gg_vistime(tidslinje,
+                           linewidth = 15,
+                           optimize_y = TRUE,
+                           title = "Oversikt klassisk islamsk periode",
+                           show_labels = TRUE) +
+                           #background_lines = 12) +
+                          scale_x_datetime(date_break = "25 years", 
+                                           date_labels = "%Y", limits = lims, 
+                                           expand = c(0.012, 0)) 
+
+# Combining gg_vistime with ggplot functions
+The object "klassisktid" that we just made can be combined with regular arguments from the ggplot package to tweak all kinds of aspects of our timeline. First, you can use the preset themes with the function theme_X(), where X corresponds to any of the preset themes in the ggplot package. If you start typing, RStudio will suggest themes for you with the autocomplete function, for example: 
+
+```
+klassisktid + theme_dark()
+```
+
+Or you can define everything yourself, like this, for example:
+
+```
+klassisktid + theme(
+  plot.title = element_text(hjust = 0, size=25),
+  axis.text.x = element_text(size = 10, color = "black"),
+  axis.text.y = element_text(size = 15, color = "black", angle = 30),
+  panel.border = element_rect(linetype = "dashed", fill= NA),
+  panel.background = element_rect(fill = 'lightgrey')
+)
+```  
+You can experiment to your heart's content with ggplot functions. Have fun!
