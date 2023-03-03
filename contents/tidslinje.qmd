@@ -33,6 +33,8 @@ Once you have imported your dataset as a data.frame in Rstudio, you are ready to
 ```
 gg_vistime(tidslinje)
 ```
+This is what you get:
+![Basic timeline](/contents/tidslinje1.png)
 
 There's a number of arguments and variables that are invisible in the function above, but that you can tweak if you like. Here they are - you can play around with them, run the code and see what happens to the plot:
 
@@ -70,6 +72,9 @@ gg_vistime(tidslinje,
             date_labels = "%Y", limits = lims, 
             expand = c(0.012, 0)) 
 
+This is the result:
+
+![Customized timeline](/contents/tidslinje2.png)
 
 Let's now make an object "klassisktid" out of the plot that we just produced. So it's exactly the same code, we just define it as an R object with "klassisktid <- ".
 
@@ -101,4 +106,7 @@ klassisktid + theme(
   panel.background = element_rect(fill = 'lightgrey')
 )
 ```  
+
+![Combining with ggplot elements](/contents/tidslinje3.png)
+
 You can experiment to your heart's content with ggplot functions. Have fun!
