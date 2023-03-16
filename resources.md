@@ -30,6 +30,10 @@ Compare Jacob's product, an [HTML web page](/contents/miniguide_quarto.html), wi
 
 We usually need to preprocess our text before analysis (removing [stopwords](https://kavita-ganesan.com/what-are-stop-words/#.Y9kqAq3MJaQ), [lemmatization](https://www.techtarget.com/searchenterpriseai/definition/lemmatization), and [tokenization](https://www.geeksforgeeks.org/nlp-how-tokenizing-text-sentence-words-works/). This is what we call Natural Language Processing (NLP). Although R is one of our favourite tools for text mining and analysis, Python has several packages that are superior when doing NLP. Here is Erik's [python code for preprocessing Norwegian text](/contents/spacy_language_processing.html) with lemmatization and stopword removal. You can with ease download and change the language module to preprocess Chinese, Japanese, English, or Russian texts (to mention just a few).
 
+## A quick guide for High Performance Computing (HPC) and Slurm
+
+High Performance Computing (HPC) is becoming increasingly important as we process, analyze, and perform complex calculations of increasing amounts of data. HPC uses clusters of powerful processors that work in parallel at extremely high speeds. Here is [Erik's quick guide](/contents/quick_guide_to_hpc_and_slurm.html) to run Python and R scripts in [FOX](https://www.uio.no/english/services/it/research/hpc/fox/index.html), the University of Oslo's own HPC-cluster.
+
 ## Timelines with vistime
 Here is a [little tutorial](/contents/tidslinje.html),
 and here is a [.csv file](/contents/tidslinje.csv) made for use with the tutorial.
