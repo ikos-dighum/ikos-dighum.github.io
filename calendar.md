@@ -15,11 +15,11 @@ P.S!! The seminar on January 17 is scheduled from 12pm to 13.30pm.
 
 * 1 March: ggplot2: Creating timelines and Gantt charts in R
 
-* 15 March: ggplot2: Word analysis and visualization
+* 15 March: ggplot2: Text analysis and visualization
 
-* 29 March: ggplot2: Creating maps and visualizing networks
+* 29 March: ggplot2: Text analysis and visualization
 
-* 12 April: ggplot2: Presentation by [Sofie Gilbert](https://www.ub.uio.no/english/about/people/samdig/open-research/sofiegi/index.html), University of Oslo Library
+* 12 April: ggplot2: Creating maps and visualizing networks
 
 * 26 April: ggplot2: Presentation by [Sofie Gilbert](https://www.ub.uio.no/english/about/people/samdig/open-research/sofiegi/index.html), University of Oslo Library
 
