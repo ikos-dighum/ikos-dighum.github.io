@@ -4,7 +4,7 @@
 
 ## R resources
 
-* Downloading R and RStudio: [Homepage of the R-project](https://cran.r-project.org/).
+* Downloading R and R Studio: [Homepage of the R-project](https://cran.r-project.org/).
 
 * How to use daiR: [Erik's example](/contents/using_dair.html)
 
