@@ -2,39 +2,27 @@
 
 # Resources
 
-## Getting started with R
+## R resources
 
-Downloading R and RStudio: [Homepage of the R-project](https://cran.r-project.org/).
+* Downloading R and RStudio: [Homepage of the R-project](https://cran.r-project.org/).
 
-How to install R and RStudio: [A quick tutorial](https://www.youtube.com/watch?v=orjLGFmx6l4) with Greg Martin.
+* How to use daiR: [Erik's example](/contents/using_dair.html)
 
-Creating an R project: [A quick tutorial](https://www.youtube.com/watch?v=e8B9YU_M5FM) with Greg Martin.
+* How to create a timeline with gg_vistime: Jakob's example(/contents/tidslinje.html). Can be used with this [.csv file](/contents/tidslinje.csv). Tutorial for the [gg_vistime package](https://shosaco.github.io/vistime/articles/gg_vistime-vignette.html).
 
-## An example of how to use daiR
+## Python resources
 
-[Erik's example](/contents/using_dair.html)
+We usually need to preprocess our text before analysis (removing [stopwords](https://kavita-ganesan.com/what-are-stop-words/#.Y9kqAq3MJaQ), [lemmatization](https://www.techtarget.com/searchenterpriseai/definition/lemmatization), and [tokenization](https://www.geeksforgeeks.org/nlp-how-tokenizing-text-sentence-words-works/). This is what we call Natural Language Processing (NLP). Although R is one of our favourite tools for text mining and analysis, Python has several packages that are superior when doing NLP:
 
-## Changing settings in VS Codium
+* Natural Language Processing with SpaCy: [Erik's example](/contents/spacy_language_processing.html).
 
-One of the great things about VS Codium is that you can adjust it according to your needs (whether that pertains to hard wrap, colorization, extensions, and so on). One way of modifying VS Codium is changing the settings.json file. See [Erik's example](/contents/optimizing_vs_codium.html)
+## Markdown resources:
 
-## Markdown with Zotero and Better Bibtex
-
-Here are links to Jacob's [web presentation](/contents/betterbibtex/markdown_zotero.html) of the DAS seminar on 1 February, and here is the [markdown file](/contents/betterbibtex/markdown_zotero.qmd).
-
-## Miniguide to Quarto
-
-Compare Jacob's product, an [HTML web page](/contents/miniguide_quarto.html), with his [markdown script](/contents/miniguide_quarto.qmd) as you go along.
-
-## Preprocessing text with SpaCy
-
-We usually need to preprocess our text before analysis (removing [stopwords](https://kavita-ganesan.com/what-are-stop-words/#.Y9kqAq3MJaQ), [lemmatization](https://www.techtarget.com/searchenterpriseai/definition/lemmatization), and [tokenization](https://www.geeksforgeeks.org/nlp-how-tokenizing-text-sentence-words-works/). This is what we call Natural Language Processing (NLP). Although R is one of our favourite tools for text mining and analysis, Python has several packages that are superior when doing NLP. Here is Erik's [python code for preprocessing Norwegian text](/contents/spacy_language_processing.html) with lemmatization and stopword removal. You can with ease download and change the language module to preprocess Chinese, Japanese, English, or Russian texts (to mention just a few).
+* Markdown with Zotero and Better Bibtex: [Jacob's example](/contents/betterbibtex/markdown_zotero.html). 
+* Writing markdown in Quarto: [Jacob's markdown script](/contents/miniguide_quarto.qmd).
+* Modifying VS Codium through its settings.json file: [Erik's example](/contents/optimizing_vs_codium.html).
 
 ## A quick guide for High Performance Computing (HPC) and Slurm
 
 High Performance Computing (HPC) is becoming increasingly important as we process, analyze, and perform complex calculations of increasing amounts of data. HPC uses clusters of powerful processors that work in parallel at extremely high speeds. Here is [Erik's quick guide](/contents/quick_guide_to_hpc_and_slurm.html) to run Python and R scripts in [FOX](https://www.uio.no/english/services/it/research/hpc/fox/index.html), the University of Oslo's own HPC-cluster.
 
-## Timelines with vistime
-Here is a [little tutorial](/contents/tidslinje.html),
-and here is a [.csv file](/contents/tidslinje.csv) made for use with the tutorial.
-Be sure to read the [gg_vistime vignette](https://shosaco.github.io/vistime/articles/gg_vistime-vignette.html) before you start.
