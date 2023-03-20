@@ -8,7 +8,7 @@
 
 * How to use daiR: [Erik's example](/contents/using_dair.html).
 
-* How to create a timeline with gg_vistime: Jacob's example(/contents/tidslinje.html). Can be used with this [.csv file](/contents/tidslinje.csv). Tutorial for the [gg_vistime package](https://shosaco.github.io/vistime/articles/gg_vistime-vignette.html).
+* How to create a timeline with gg_vistime: [Jacob's example](/contents/tidslinje.html). Can be used with this [.csv file](/contents/tidslinje.csv). Tutorial for the [gg_vistime package](https://shosaco.github.io/vistime/articles/gg_vistime-vignette.html).
 
 ## Python resources
 
@@ -18,6 +18,7 @@ We usually need to preprocess our text before analysis (removing [stopwords](htt
 
 * Norwegian Natural Language Processing with SpaCy: [Erik's example](/contents/spacy_language_processing.html).
 * Persian Natural Language Processing with Hazm: [Erik's example](/contents/persian_nlp.html).
+* Chinese Natural Language Processing with Jieba: [Erik's example](/contents/chinese_nlp.html)
 
 ## Markdown resources:
 
