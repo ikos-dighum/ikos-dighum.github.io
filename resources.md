@@ -16,7 +16,8 @@
 
 We usually need to preprocess our text before analysis (removing [stopwords](https://kavita-ganesan.com/what-are-stop-words/#.Y9kqAq3MJaQ), [lemmatization](https://www.techtarget.com/searchenterpriseai/definition/lemmatization), and [tokenization](https://www.geeksforgeeks.org/nlp-how-tokenizing-text-sentence-words-works/)). This is what we call Natural Language Processing (NLP). Although R is one of our favourite tools for text mining and analysis, Python has several packages that are superior when doing NLP:
 
-* Natural Language Processing with SpaCy: [Erik's example](/contents/spacy_language_processing.html).
+* Norwegian Natural Language Processing with SpaCy: [Erik's example](/contents/spacy_language_processing.html).
+* Persian Natural Language Processing with Hazm: [Erik's example](/contents/persian_nlp.html).
 
 ## Markdown resources:
 
