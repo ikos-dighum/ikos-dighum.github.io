@@ -5,9 +5,7 @@
 ## R resources
 
 * Downloading R and R Studio: [Homepage of the R-project](https://cran.r-project.org/).
-
 * How to use daiR: [Erik's example](/contents/using_dair.html).
-
 * How to create a timeline with gg_vistime: [Jacob's example](/contents/tidslinje.html). Can be used with this [.csv file](/contents/tidslinje.csv). Tutorial for the [gg_vistime package](https://shosaco.github.io/vistime/articles/gg_vistime-vignette.html).
 
 ## Python resources
