@@ -25,7 +25,7 @@ We usually need to preprocess our text before analysis (removing [stopwords](htt
 
 ## Markdown resources:
 
-* Markdown with Zotero and Better Bibtex: [Jacob Høigilt's example](/contents/htmls/betterbibtex/markdown_zotero.html). 
+* Markdown with Zotero and Better Bibtex: [Jacob Høigilt's example](/contents/betterbibtex/markdown_zotero.html). 
 * Writing markdown in Quarto: [Jacob Høigilt's markdown script](/contents/htmls/miniguide_quarto.html).
 * Modifying VS Codium through its settings.json file: [Erik Skare's example](/contents/htmls/optimizing_vs_codium.html).
 
