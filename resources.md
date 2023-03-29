@@ -29,7 +29,7 @@ We usually need to preprocess our text before analysis (removing [stopwords](htt
 * Writing markdown in Quarto: [Jacob Høigilt's markdown script](/contents/htmls/miniguide_quarto.html).
 * Modifying VS Codium through its settings.json file: [Erik Skare's example](/contents/htmls/optimizing_vs_codium.html).
 
-## A quick guide for High Performance Computing (HPC) and Slurm
+## A quick guide for High Performance Computing (HPC)
 
 High Performance Computing (HPC) is becoming increasingly important as we process, analyze, and perform complex calculations of increasing amounts of data. HPC uses clusters of powerful processors that work in parallel at extremely high speeds. The University of Oslo has its own HPC cluster called [Fox](https://www.uio.no/english/services/it/research/hpc/fox/index.html).
 
