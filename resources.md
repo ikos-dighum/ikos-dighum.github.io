@@ -2,10 +2,15 @@
 
 # Resources
 
-## R resources
-
 * Downloading R and R Studio: [Homepage of the R-project](https://cran.r-project.org/).
-* How to use daiR: [Erik Skare's example](/contents/htmls/using_dair.html).
+
+### Using R for Optical Character Recognition (OCR)
+
+* Setting up a Google Storage bucket: [Thomas Hegghammer's walkthrough](https://dair.info/articles/setting_up_google_storage.html).
+* How to use daiR to process big file batches: [Erik Skare's example](/contents/htmls/using_dair.html).
+
+## Data visualization 
+
 * How to create a timeline with gg_vistime: [Jacob Høigilt's example](/contents/htmls/tidslinje.html). Can be used with this [.csv file](/contents/tidslinje.csv). Tutorial for the [gg_vistime package](https://shosaco.github.io/vistime/articles/gg_vistime-vignette.html).
 
 ## Python resources
