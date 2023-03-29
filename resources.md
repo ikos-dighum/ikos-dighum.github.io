@@ -23,12 +23,12 @@
 
 ### Text preprocessing
 
-We usually need to preprocess our text before analysis (removing [stopwords](https://kavita-ganesan.com/what-are-stop-words/#.Y9kqAq3MJaQ), [lemmatization](https://www.techtarget.com/searchenterpriseai/definition/lemmatization), and [tokenization](https://www.geeksforgeeks.org/nlp-how-tokenizing-text-sentence-words-works/)). This is what we call Natural Language Processing (NLP). Although R is one of our favourite tools for text mining and analysis, Python has several packages that are superior when doing NLP:
+We usually need to preprocess our text before analysis (removing [stopwords](https://kavita-ganesan.com/what-are-stop-words/#.Y9kqAq3MJaQ), [lemmatization](https://www.techtarget.com/searchenterpriseai/definition/lemmatization), and [tokenization](https://www.geeksforgeeks.org/nlp-how-tokenizing-text-sentence-words-works/)). Although R is one of our favourite tools for text mining and analysis, Python has several packages that are superior:
 
-* Norwegian Natural Language Processing with SpaCy: [Erik Skare's example](/contents/htmls/spacy_language_processing.html).
-* Arabic Natural Language Processing with Camel Tools: [Thomas Hegghammer's exmaple](https://gist.github.com/Hegghammer/f6b10677a03416642caae6426912eed9).
-* Persian Natural Language Processing with Hazm: [Erik Skare's example](/contents/htmls/persian_nlp.html).
-* Chinese Natural Language Processing with Jieba: [Erik Skare's example](/contents/htmls/chinese_nlp.html)
+* Norwegian text preprocessing with SpaCy: [Erik Skare's example](/contents/htmls/spacy_language_processing.html).
+* Arabic text preprocessing with Camel Tools: [Thomas Hegghammer's exmaple](https://gist.github.com/Hegghammer/f6b10677a03416642caae6426912eed9).
+* Persian text preprocessing with Hazm: [Erik Skare's example](/contents/htmls/persian_nlp.html).
+* Chinese text preprocessing with Jieba: [Erik Skare's example](/contents/htmls/chinese_nlp.html)
 
 ## Markdown resources:
 
