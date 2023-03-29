@@ -2,6 +2,8 @@
 
 # Resources
 
+## R resources
+
 * Downloading R and R Studio: [Homepage of the R-project](https://cran.r-project.org/).
 
 ### Using R for Optical Character Recognition (OCR)
