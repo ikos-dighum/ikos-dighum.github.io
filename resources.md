@@ -29,7 +29,7 @@ We usually need to preprocess our text before analysis (removing [stopwords](htt
 * Norwegian text preprocessing with SpaCy: [Erik Skare's example](/contents/htmls/spacy_language_processing.html).
 * Arabic text preprocessing with Camel Tools: [Thomas Hegghammer's exmaple](https://gist.github.com/Hegghammer/f6b10677a03416642caae6426912eed9).
 * Persian text preprocessing with Hazm: [Erik Skare's example](/contents/htmls/persian_nlp.html).
-* Turkish text preprocessing with Zemberek and Zeyrek: [Erik Skare's example](/contents/htmls/persian_nlp.html).
+* Turkish text preprocessing with Zemberek and Zeyrek: [Erik Skare's example](/contents/htmls/turkish_nlp.html).
 * Chinese text preprocessing with Jieba: [Erik Skare's example](/contents/htmls/chinese_nlp.html)
 
 ## Markdown resources:
