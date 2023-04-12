@@ -1,7 +1,13 @@
 [**HOME**](/index.md) - [**ABOUT**](/about.md) - [**CALENDAR**](/calendar.md) - [**RESOURCES**](/resources.md) - [**DIGITAL TEXTS ARCHIVES**](/repositories.md)
 
-# Digital primary and secondary sources in different languages
+# Digital text archives
 
-[General Middle East sources, mostly in English](/contents/digital_sources/general-mideast-sources.html)
+## Middle Eastern and Arabic sources
 
-[Primary and secondary sources in Arabic](/contents/digital_sources/sources_ar.html)
+A collection of both Arabic and English language archives, repositories, and libraries relevant for Middle Eastern Studies. The collection includes a wide range of topics from digitized jihadist documents to declassified U.S. government documents including the Afghanistan-Taliban Project, Iran-US Relations, Iraq project, The Saddam Hussein Sourcebook and The September 11th Sourcebook.
+
+* [General Middle East sources](/contents/digital_sources/general-mideast-sources.html), mostly in English
+
+* [Arabic primary and secondary sources](/contents/digital_sources/sources_ar.html)
+
+## [TBA]
