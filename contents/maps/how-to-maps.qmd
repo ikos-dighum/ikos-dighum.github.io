@@ -1,0 +1,176 @@
+---
+title: "Simple R map tutorial with ggplot"
+title-block-banner: Navy
+author: "Jacob Høigilt"
+date: today
+format: 
+    html:
+        embed-resources: true
+        toc: true
+        smooth-scroll: true
+        code-fold: false
+        code-summary: "Show me the code"
+    pdf:
+        geometry: 
+          - top=30mm
+          - left=30mm
+    docx: default
+editor: source
+---
+
+# What this tutorial covers
+
+I will go through two ways of creating a map based on one of the several existing datasets freely available for that purpose. The first map shows how you can create a world map and then zoom in on a specific region using latitude and longitude coordinates. The second shows how you create a map consisting only of selected countries from the dataset. Along the way, I will briefly explain what the various functions do and provide links to web resources where you can learn more about them.
+
+# Required R packages
+
+You need the following packages:
+
+```r
+library(dplyr)
+library(ggplot2)
+library(sf)
+library(giscoR)
+library(ggrepel)
+```
+
+The `dplyr` package provides a handy set of tools to manipulate datasets. It has functions to change variable names, duplicate variables, filter values, etc. It is a basic staple of many R scripts. Read more about `dplyr` [here](https://dplyr.tidyverse.org/).
+
+`ggplot2` is the workhorse in this map script. It is the package that allows us to visualize as a map the spatial data in our dataset. ggplot is an essential package for any visualization of data, such as bar charts or graphs. Read about it [here](https://ggplot2.tidyverse.org/index.html).
+
+`sf` stands for *simple features*. Simple features is an official standard to help computers describe the spatial geometry of objects in the world, such as countries with borders. The sf package helps R interpret and process sf data. This is way more complicated than I can explain here, but there's a very pedagogical introduction [here](https://r-spatial.github.io/sf/articles/sf1.html).
+
+`giscoR` is a package that liaises between R and the EU's "Geographic Information System of the COmmission" (GISCO). This body ["is responsible for meeting the European Commission's geographical information needs at 3 levels: the European Union, its member countries, and its regions"](https://ec.europa.eu/eurostat/web/gisco). But it also produces spatial datasets containing mapping data for all the world's countries, which is what we are going to use here.
+
+`ggrepel` is a package which ensures that graphical elements don't overlap, whether they are text, points or other graphics. We use it here because we don't want the country names on our map to overlap each other. 
+
+OK, now that we know what the packages do we're ready to start using them and write some code.
+
+# Creating two necessary dataframes and plotting a simple world map
+
+First, we get the data from GISCO with the gisco_get_countries command. We store the information in a dataframe we call 'world'. Then we create a second R object called 'world_points'. The function st_centroid simply calculates the center point in all the countries contained in the dataframe 'world'. We need this information later, when we want to insert the country names for each country on the map.
+
+```r
+world <- gisco_get_countries()
+world_points <- st_centroid(world)
+```
+
+If you have a look at the dataframe 'world' (use the R command `view(world)`) you will see that it consists of 257 observations or rows, each corresponding to one of the world's countries, and six variables, one of which is the coordinates information that describes the borders. With this dataset we can very easily create a nice world map:
+
+```r
+ggplot(data = world) +
+  geom_sf(fill = "antiquewhite")
+```
+
+![world map](../output/worldmap.png)
+
+We simply call `ggplot` and let it operate on our 'world' dataframe. We also need to specify a *geom*, a kind of visual representation, to actually see anything (without the `geom` function we will get a blank plot). The specific `geom` function we use for this map is `geom_sf` (recall the `sf` package we loaded at the start). I have also chosen to specify that I want a fill of a specific colour in the countries plotted in the map. You can try to delete that specification (`geom_sf()`) and see what happens.
+
+# Zooming in on the Middle East and North Africa
+Now we want to zoom in and show only a region of the world map. I have chosen the Middle East and North Africa, since that's the region I work on myself. In order to make the map tidy I don't want to show the country labels of non-MENA countries, and to achieve this we have to use the `filter` function in the `dplyr` package. The filter tells R which countries we want to label with their name.
+
+We still draw on the dataframe 'world', and we start by defining the area we want the map to show, using latitude and longitude coordinates from an atlas (with the `coord_sf` function).
+
+```r
+ggplot(data = world) + 
+geom_sf(fill = "antiquewhite") + 
+coord_sf(xlim = c(-18.0, 72.0), ylim = c(11.5, 45.0), expand = FALSE) + 
+
+```
+Then we call the function `geom_text_repel` from the ggrepel package to get the text for the country labels, and to make sure that they don't overlap when we plot them on the map (this is the specialty of the `ggrepel` package - it repels overlapping graphics). We get our data from the dataframe world points, which we defined at the start. Then we filter the countries that we want to label. Other countries will be blank.
+
+```r
+ggrepel::geom_text_repel(
+    data = world_points %>% 
+      filter(name %in% c('Egypt', 'Tunisia', 'Algeria', 'Libya', 
+                         'Morocco', 'Sudan', 'Jordan', 'Israel', 
+                         'Palestine', 'Syria', 'Iraq', 'Turkey',
+                         'Iran', 'Afghanistan', 'Saudi Arabia',
+                         'Kuwait', 'United Arab Emirates', 
+                         'Qatar', 'Oman', 'Yemen', 'Bahrain',
+                         'Lebanon', 'Mauritania', 
+                         'Western Sahara')),
+    
+    
+```
+Lastly, we define how the label in geom_sf_text is going to look with the aes(aesthetic) function. The argument `stat = "sf_coordinates"` maps the country labels to the right country on the map. `min.segment.length` inserts an arrow from the country label the country on the map if the label  is pushed far away by `ggrepel` to avoid overlapping text. We add free-standing text ("MØNA") with `annotate` at a place in the map that we specify with x and y coordinates. We add labels for the x and y axes, to make the map appealing, and we add the title with ggtitle. (Apologies for forgetting to translating map text from Norwegian to English!)
+
+```r
+aes(label = name, geometry = geometry), color = "darkblue", 
+    size = 2.5,
+    stat = "sf_coordinates", 
+    min.segment.length = 0.5) + 
+  annotate(geom = "text", x = 20, y = 35, label = "MØNA", 
+           fontface = "italic", color = "grey22", size = 6) +
+  xlab("lengdegrader") + ylab("breddegrader") +
+  ggtitle("Midtøsten og Nord-Afrika") +
+  theme(panel.background = element_rect(fill = "aliceblue")) 
+  ```
+
+This is how the map looks like when we are finished:
+
+![MENA map](../output/menamap.png)
+
+And this is the entire code without my explanatory breaks. I save the code as an R object, "menamap", because I want to add something to it in the next step. (If I now type `menamap` in the console of Rstudio, the plot will show.)
+
+```r
+menamap <- ggplot(data = world) +
+  geom_sf(fill = "antiquewhite") +
+  coord_sf(xlim = c(-18.0, 72.0), ylim = c(11.5, 45.0), expand = FALSE) +
+  ggrepel::geom_text_repel(
+    data = world_points %>% 
+      filter(name %in% c('Egypt', 'Tunisia', 'Algeria', 'Libya', 
+                         'Morocco', 'Sudan', 'Jordan', 'Israel', 
+                         'Palestine', 'Syria', 'Iraq', 'Turkey',
+                         'Iran', 'Afghanistan', 'Saudi Arabia',
+                         'Kuwait', 'United Arab Emirates', 
+                         'Qatar', 'Oman', 'Yemen', 'Bahrain',
+                         'Lebanon', 'Mauritania', 
+                         'Western Sahara')),
+    aes(label = name, geometry = geometry), color = "darkblue", 
+    size = 2.5,
+    stat = "sf_coordinates",
+    min.segment.length = 0.5) +
+  annotate(geom = "text", x = 20, y = 35, label = "MØNA", 
+           fontface = "italic", color = "grey22", size = 6) +
+  xlab("lengdegrader") + ylab("breddegrader") +
+  ggtitle("Midtøsten og Nord-Afrika") +
+  theme(panel.background = element_rect(fill = "aliceblue"))
+```
+
+# How to add custom points to the map
+
+Now I want to add points indicating the cities of Alexandria (Egypt) and Medina (Saudi Arabia). I find the coordinates for these two cities somewhere on the web (I think I used Wikipedia in this instance). Then I put the coordinates into a dataframe I call "twocities":
+
+```r
+twocities <- data.frame(longitude = c(29.924526, 39.612236), latitude = c(31.205753, 24.470901))
+```
+
+Now we simply add the information in this dataframe as a layer in our ggplot call. I take the already existing map, `menamap`, and then pipe to the extra layer. I save the whole thing as a new object, `menamapcities`. Note the last line: I specify the size of the text "Alexandria" and "Medina", and then I nudge the text labels upward a little bit (on the y axis) so that they don't overlap with the point that indicates them on the map.
+
+```r
+menamapcities <- menamap %>% +
+  geom_point(data = twocities, aes(x = longitude, y = latitude), 
+                size = 1, shape = 23, fill = "darkred") +
+  geom_text(data = twocities, aes(x = longitude, y = latitude, 
+                                  label = c("Alexandria", "Medina")),
+            size = 2.5, nudge_y = .75)
+```
+
+Lastly, I save the plot to an image file of a defined size, which I can find in my working directory afterwards:
+
+```r
+ggsave("menamapcities.png", width = 15, height = 7.5, units = "cm")
+```
+
+And this is what it looks like, including the two cities:
+
+![Map of MENA including Alexandria and Medina](../output/menamapcities.png)
+
+
+# Resources:
+
+- https://ropengov.github.io/giscoR//
+- https://r-spatial.org/r/2018/10/25/ggplot2-sf.html#fnref:1
+- https://ggplot2.tidyverse.org/reference/ggsf.html
+- https://r-spatial.github.io/sf/
