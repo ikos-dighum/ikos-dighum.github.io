@@ -16,6 +16,10 @@
 
 * How to create a timeline with gg_vistime: [Jacob Høigilt's example](/contents/htmls/tidslinje.html). Can be used with this [.csv file](/contents/tidslinje.csv). Tutorial for the [gg_vistime package](https://shosaco.github.io/vistime/articles/gg_vistime-vignette.html).
 
+### Creating maps
+
+* How to create a world map and then zoom in on a region, adding country names etc. [Jacob's example](/contents/htmls/how-to-maps.html). 
+
 ## Python resources
 
 ### Installing and running Python and Anaconda
