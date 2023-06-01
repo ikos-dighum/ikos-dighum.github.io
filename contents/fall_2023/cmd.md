@@ -8,6 +8,6 @@ Suggested readings (Operating system):
 
 Suggested readings (cmd.exe):
 
-- [A Beginner's Guide to the Windows Command Prompt](https://www.lifewire.com/command-prompt-2625840](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/)
+- [A Beginner's Guide to the Windows Command Prompt](https://www.lifewire.com/command-prompt-2625840](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line)
 - [Windows Command-Line: The Evolution of the Windows Command-Line](https://devblogs.microsoft.com/commandline/windows-command-line-the-evolution-of-the-windows-command-line/)
 - [6 Clever Ways to Use the Windows Command Prompt](https://www.wired.com/story/6-windows-command-prompt-clever-tips/)
