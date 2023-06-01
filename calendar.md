@@ -18,15 +18,15 @@ In the fall semester 2023, we meet every Thursday from 12.00 to 13.00. Location 
 
 * 19 October: [From Markdown to Quarto](/contents/fall_2023/quarto.md)
 
-* 26 October: An introduction to R and Rstudio
+* 26 October: [An introduction to R and Rstudio](/contents/fall_2023/introduction_r.md)
 
-* 2 November: An introduction to text preprocessing in R
+* 2 November: [An introduction to text preprocessing in R](/contents/fall_2023/text_preprocessing.md)
 
-* 9 November: An introduction to text analysis in R
+* 9 November: [An introduction to text analysis in R](/contents/fall_2023/text_analysis.md)
 
-* 16 November: Structural topic modelling using stm
+* 16 November: [Structural topic modelling using stm](/contents/fall_2023/stm.md)
 
-* 23 November: Keyword-assisted topic modelling using keyATM
+* 23 November: [Keyword-assisted topic modelling using keyATM](/contents/fall_2023/atm.md)
 
 * 30 November: An introduction to sentiment analysis
 
