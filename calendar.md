@@ -16,7 +16,7 @@ In the fall semester 2023, we meet every Thursday from 12.00 to 13.00. Location 
 
 * 12 September: [Writing in Markdown and using GitBash](/contents/fall_2023/writing_markdown.md)
 
-* 19 October: From Markdown to [Quarto](/contents/fall_2023/quarto.md)
+* 19 October: [From Markdown to Quarto](/contents/fall_2023/quarto.md)
 
 * 26 October: An introduction to R and Rstudio
 
