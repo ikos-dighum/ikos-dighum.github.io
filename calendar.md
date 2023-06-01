@@ -14,9 +14,9 @@ In the fall semester 2023, we meet every Thursday from 12.00 to 13.00. Location 
 
 * 28 September: [What is Markdown and plaintext editors](/contents/2023_01_18_introduction_to_markdown.md)?
 
-* 12 September: Writing in Markdown and using GitBash
+* 12 September: [Writing in Markdown and using GitBash](/contents/fall_2023/writing_markdown.md)
 
-* 19 October: From Markdown to Quarto
+* 19 October: From Markdown to [Quarto](/contents/fall_2023/quarto.md)
 
 * 26 October: An introduction to R and Rstudio
 
