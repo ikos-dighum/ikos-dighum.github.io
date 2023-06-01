@@ -2,7 +2,7 @@
 
 # Calendar
 
-In the fall semester 2023, we meet every Thursday from 12.00 to 13.00. All meetings are in PAM389, unless otherwise noted.
+In the fall semester 2023, we meet every Thursday from 12.00 to 13.00. Location will be announced before the start of the semester.
 
 ## Fall 2023
 
