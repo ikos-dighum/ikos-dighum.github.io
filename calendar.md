@@ -2,8 +2,7 @@
 
 # Calendar
 
-We meet every other Wednesday from 10.30am to 12pm. All meetings are in PAM389, unless otherwise noted.
-P.S!! The seminar on January 17 is scheduled from 12pm to 13.30pm.
+In the fall semester 2023, we meet every Thursday from 12.00 to 13.00. All meetings are in PAM389, unless otherwise noted.
 
 ## Fall 2023
 
