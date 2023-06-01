@@ -6,7 +6,7 @@ In the fall semester 2023, we meet every Thursday from 12.00 to 13.00. Location 
 
 ## Fall 2023
 
-* **7 September:** IKOS on the web and [optimizing your web browser](/contents/fall_2023/browser.md)
+* **7 September:** [IKOS on the web and optimizing your web browser](/contents/fall_2023/browser.md)
 
 * **14 September:** [Improving file management and digital hygiene](/contents/fall_2023/digital_hygiene.md)
 
