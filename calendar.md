@@ -5,6 +5,34 @@
 We meet every other Wednesday from 10.30am to 12pm. All meetings are in PAM389, unless otherwise noted.
 P.S!! The seminar on January 17 is scheduled from 12pm to 13.30pm.
 
+## Fall 2023
+
+* 7 September: IKOS on the web and optimizing your browser
+
+* 14 September: Improving and preserving digital hygiene
+
+* 21 September: What is an operating system and how use the command line (cmd.exe)?
+
+* 28 September: What is Markdown and plaintext editors?
+
+* 12 September: Writing in Markdown and using GitBash
+
+* 19 October: From Markdown to Quarto
+
+* 26 October: An introduction to R and Rstudio
+
+* 2 November: An introduction to text preprocessing in R
+
+* 9 November: An introduction to text analysis in R
+
+* 16 November: Structural topic modelling using stm
+
+* 23 November: Keyword-assisted topic modelling with keyATM
+
+* 30 November: An introduction to sentiment analysis
+
+
+
 ## Spring 2023: ggplot2 and data visualization
 
 * 17 January: [An introduction to Markdown  with Pandoc](/contents/2023_01_18_introduction_to_markdown.md)
