@@ -28,7 +28,7 @@ We meet every Thursday from 12.00 to 13.00. Location will be announced before th
 
 * **23 November:** [Keyword-assisted topic modelling using keyATM](/contents/fall_2023/atm.md)
 
-* **30 November:** [An introduction to sentiment analysis](/contents(fall_2023/sentiment_analysis.md)
+* **30 November:** [An introduction to sentiment analysis](/contents/fall_2023/sentiment_analysis.md)
 
 
 
