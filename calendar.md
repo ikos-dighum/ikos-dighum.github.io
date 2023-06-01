@@ -12,7 +12,7 @@ In the fall semester 2023, we meet every Thursday from 12.00 to 13.00. Location 
 
 * 21 September: [What is an operating system and how use the command line (cmd.exe)?](/contents/fall_2023/cmd.md)
 
-* 28 September: What is [Markdown and plaintext editors](/contents/2023_01_18_introduction_to_markdown.md)?
+* 28 September: [What is Markdown and plaintext editors](/contents/2023_01_18_introduction_to_markdown.md)?
 
 * 12 September: Writing in Markdown and using GitBash
 
