@@ -26,7 +26,7 @@ In the fall semester 2023, we meet every Thursday from 12.00 to 13.00. Location 
 
 * 16 November: Structural topic modelling using stm
 
-* 23 November: Keyword-assisted topic modelling with keyATM
+* 23 November: Keyword-assisted topic modelling using keyATM
 
 * 30 November: An introduction to sentiment analysis
 
