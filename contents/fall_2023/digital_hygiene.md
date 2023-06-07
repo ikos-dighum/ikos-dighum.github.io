@@ -8,5 +8,5 @@ Suggested readings on hard drives and partitions:
 
 Suggested readings on file management:
 
-- [Microsoft: 11 ideas for how to organize digital files](https://www.scaler.com/topics/file-management-in-operating-system/](https://www.microsoft.com/en-us/microsoft-365/business-insights-ideas/resources/11-ideas-for-how-to-organize-digital-files)
+- [Microsoft: 11 ideas for how to organize digital files](https://www.microsoft.com/en-us/microsoft-365/business-insights-ideas/resources/11-ideas-for-how-to-organize-digital-files)
 - [What is File Management? Why is it Important?](https://theecmconsultant.com/what-is-file-management/)
