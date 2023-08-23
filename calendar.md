@@ -2,15 +2,15 @@
 
 # Calendar
 
-We meet every Thursday from 12.00 to 13.00. Location will be announced before the start of the semester.
+We meet every Thursday from 12.00 to 13.00 in PAM389. 
 
 ## Fall 2023
 
-* **7 September:** [IKOS on the web and optimizing your web browser](/contents/fall_2023/browser.md)
+* **7 September:** NOTE: 13.30 in PAM489 this date [What is an operating system and how use the command line (cmd.exe)?](/contents/fall_2023/cmd.md)
+  
+* **14 September:** [IKOS on the web and optimizing your web browser](/contents/fall_2023/browser.md)
 
-* **14 September:** [Improving file management and digital hygiene](/contents/fall_2023/digital_hygiene.md)
-
-* **21 September:** [What is an operating system and how use the command line (cmd.exe)?](/contents/fall_2023/cmd.md)
+* **21 September:** [Improving file management and digital hygiene](/contents/fall_2023/digital_hygiene.md)
 
 * **28 September:** [What is Markdown and plaintext editors](/contents/2023_01_18_introduction_to_markdown.md)?
 
