@@ -16,6 +16,8 @@ We meet every Thursday from 12.00 to 13.00 in PAM389.
 
 * **12 September:** [Writing in Markdown and using GitBash](/contents/fall_2023/writing_markdown.md)
 
+* **05 October:** Artificial Intelligence at IKOS (with Dirk and Andrea, links to resources will appear here later)
+
 * **19 October:** [From Markdown to Quarto](/contents/fall_2023/quarto.md)
 
 * **26 October:** [An introduction to R and Rstudio](/contents/fall_2023/introduction_r.md)
