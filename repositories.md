@@ -1,4 +1,4 @@
-[**HOME**](/index.md) - [**ABOUT**](/about.md) - [**CALENDAR**](/calendar.md) - [**RESOURCES**](/resources.md) - [**DIGITAL TEXTS ARCHIVES**](/repositories.md)
+[**HOME**](/index.md) - [**ABOUT**](/about.md) - <a href="/calendar">**CALENDAR**</a> - [**RESOURCES**](/resources.md) - [**DIGITAL TEXT ARCHIVES**](/repositories.md)
 
 # Digital text archives
 
