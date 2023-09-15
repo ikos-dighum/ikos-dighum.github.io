@@ -14,7 +14,7 @@ We meet every Thursday from 12.00 to 13.00 in PAM389.
 
 * **28 September:** [What is Markdown and plaintext editors](/contents/2023_01_18_introduction_to_markdown.md)?
 
-* **12 September:** [Writing in Markdown and using GitBash](/contents/fall_2023/writing_markdown.md)
+<!---* **12 September:** [Writing in Markdown and using GitBash](/contents/fall_2023/writing_markdown.md)--->
 
 * **05 October:** Artificial Intelligence at IKOS (with Dirk and Andrea, links to resources will appear here later)
 
