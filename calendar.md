@@ -20,7 +20,7 @@ We meet every Thursday from 12.00 to 13.00 in PAM389.
 
 * **19 October:** [From Markdown to Quarto](/contents/fall_2023/quarto.md)
 
-* **26 October:** [An introduction to R and Rstudio](/contents/fall_2023/introduction_r.md)
+* **26 October:** [An introduction to R and Rstudio](/contents/fall_2023/introduction_r.md) Note: We meet in PAM489
 
 * **2 November:** [An introduction to text preprocessing in R](/contents/fall_2023/text_preprocessing.md)
 
