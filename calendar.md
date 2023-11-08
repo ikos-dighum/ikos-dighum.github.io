@@ -24,13 +24,13 @@ We meet every Thursday from 12.00 to 13.00 in PAM389.
 
 * **2 November:** [An introduction to text preprocessing in R](/contents/fall_2023/text_preprocessing.md)
 
-* **9 November:** [An introduction to text analysis in R](/contents/fall_2023/text_analysis.md)
+* **9 November:** Importing data and introduction to tidyverse and ggplot
 
-* **16 November:** [Structural topic modelling using stm](/contents/fall_2023/stm.md)
+* **16 November:** Ggplot continued
 
-* **23 November:** [Keyword-assisted topic modelling using keyATM](/contents/fall_2023/atm.md)
+* **23 November:** R programming - topic TBA
 
-* **30 November:** [An introduction to sentiment analysis](/contents/fall_2023/sentiment_analysis.md)
+* **30 November:** R programming - topic TBA
 
 
 
